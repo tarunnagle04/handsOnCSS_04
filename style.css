@@ -1,0 +1,91 @@
+#nav {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    84deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(0, 177, 11, 1) 50%,
+    rgba(224, 255, 0, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+}
+
+#list {
+  border: 2px solid red;
+  border-radius: 10px;
+  margin: 5px;
+  width: 600px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  background-color: aquamarine;
+  /* paddin; */
+}
+#bottombar {
+  border: 2px solid red;
+  border-radius: 10px;
+  background-color: cyan;
+  padding: 2px;
+}
+#bottom_bar {
+  border: 1px solid greenyellow;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+h5 {
+  padding: 0;
+  margin: 0;
+}
+#top {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    84deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 252, 0, 1) 33%,
+    rgba(255, 243, 0, 1) 66%,
+    rgba(255, 0, 0, 1) 100%
+  );
+  height: 40px;
+  margin-bottom: 10px;
+}
+#top1 {
+  text-decoration: underline red 1px solid;
+}
+#student {
+  background: rgb(8, 0, 255);
+  background: radial-gradient(
+    circle,
+    rgba(8, 0, 255, 1) 0%,
+    rgba(0, 255, 38, 1) 100%
+  );
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.st {
+  background-color: yellow;
+  color: red;
+  border: 2px solid red;
+  border-radius: 15px;
+  width: 200px;
+  height: 100px;
+}
+#career {
+  background: tomato;
+  color: white;
+  font-size: larger;
+  padding-bottom: 10px;
+  /* justify-content: center; */
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+#best{
+  background-color: cyan;
+  text-align: center;
+}
